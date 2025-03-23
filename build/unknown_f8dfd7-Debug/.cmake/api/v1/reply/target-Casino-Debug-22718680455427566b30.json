@@ -69,13 +69,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 24,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -217,6 +217,10 @@
 				},
 				{
 					"backtrace" : 6,
+					"define" : "QT_STATEMACHINE_LIB"
+				},
+				{
+					"backtrace" : 6,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -236,6 +240,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/lib/QtGui.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/lib/QtStateMachine.framework"
 				}
 			],
 			"includes" : 
@@ -268,6 +277,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/lib/QtGui.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/lib/QtStateMachine.framework/Headers"
 				}
 			],
 			"language" : "CXX",
@@ -338,6 +352,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/QtStateMachine.framework/Versions/A/QtStateMachine",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 13,
 				"fragment" : "/opt/homebrew/lib/QtGui.framework/Versions/A/QtGui",
 				"role" : "libraries"
@@ -403,8 +422,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				5,
-				6
+				9,
+				10
 			]
 		},
 		{
@@ -430,10 +449,20 @@
 			]
 		},
 		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				11
 			]
 		}
 	],
@@ -469,6 +498,26 @@
 			"sourceGroupIndex" : 3
 		},
 		{
+			"backtrace" : 4,
+			"path" : "icons/apple.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/banana.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/pineapple.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "icons/watermelon.png",
+			"sourceGroupIndex" : 4
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/unknown_f8dfd7-Debug/Casino_autogen/include/ui_mainwindow.h",
@@ -484,7 +533,7 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/unknown_f8dfd7-Debug/Casino_autogen/timestamp.rule",
-			"sourceGroupIndex" : 4
+			"sourceGroupIndex" : 5
 		}
 	],
 	"type" : "EXECUTABLE"

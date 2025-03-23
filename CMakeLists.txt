@@ -11,6 +11,7 @@ qt_add_executable(Casino
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    icons/apple.png icons/banana.png icons/pineapple.png icons/watermelon.png
 )
 
 target_link_libraries(Casino

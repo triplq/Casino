@@ -4370,6 +4370,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "QT_FEATURE_qeventtransition",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: qeventtransition (from target Qt6::StateMachine)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
 			"name" : "QT_FEATURE_qqnx_imf",
 			"properties" : 
 			[
@@ -4928,6 +4940,18 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: standarditemmodel (from target Qt6::Gui)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ON"
+		},
+		{
+			"name" : "QT_FEATURE_statemachine",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Qt feature: statemachine (from target Qt6::StateMachine)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -6192,6 +6216,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/homebrew/lib/cmake/Qt6Gui"
+		},
+		{
+			"name" : "Qt6StateMachine_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt6StateMachine."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/homebrew/lib/cmake/Qt6StateMachine"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",

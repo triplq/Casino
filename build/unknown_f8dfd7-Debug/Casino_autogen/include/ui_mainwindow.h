@@ -15,6 +15,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -23,6 +24,8 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QWidget *layoutWidget;
+    QVBoxLayout *verticalLayout;
     QPushButton *startButton;
     QPushButton *stopButton;
     QMenuBar *menubar;
@@ -33,14 +36,28 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(800, 600);
+        MainWindow->setMinimumSize(QSize(800, 600));
+        MainWindow->setMaximumSize(QSize(800, 600));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        startButton = new QPushButton(centralwidget);
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(610, 30, 141, 202));
+        verticalLayout = new QVBoxLayout(layoutWidget);
+        verticalLayout->setObjectName("verticalLayout");
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        startButton = new QPushButton(layoutWidget);
         startButton->setObjectName("startButton");
-        startButton->setGeometry(QRect(610, 120, 100, 32));
-        stopButton = new QPushButton(centralwidget);
+        startButton->setMinimumSize(QSize(0, 80));
+
+        verticalLayout->addWidget(startButton);
+
+        stopButton = new QPushButton(layoutWidget);
         stopButton->setObjectName("stopButton");
-        stopButton->setGeometry(QRect(600, 210, 100, 32));
+        stopButton->setMinimumSize(QSize(0, 80));
+
+        verticalLayout->addWidget(stopButton);
+
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -58,8 +75,8 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        startButton->setText(QCoreApplication::translate("MainWindow", "start", nullptr));
-        stopButton->setText(QCoreApplication::translate("MainWindow", "stop", nullptr));
+        startButton->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
+        stopButton->setText(QCoreApplication::translate("MainWindow", "Stop", nullptr));
     } // retranslateUi
 
 };

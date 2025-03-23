@@ -319,6 +319,9 @@ Qt6GuiTools_DIR:PATH=/opt/homebrew/lib/cmake/Qt6GuiTools
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=/opt/homebrew/lib/cmake/Qt6Gui
 
+//The directory containing a CMake configuration file for Qt6StateMachine.
+Qt6StateMachine_DIR:PATH=/opt/homebrew/lib/cmake/Qt6StateMachine
+
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=/opt/homebrew/lib/cmake/Qt6WidgetsTools
 
@@ -985,6 +988,8 @@ QT_FEATURE_progressdialog:INTERNAL=ON
 QT_FEATURE_proxymodel:INTERNAL=ON
 //Qt feature: pushbutton (from target Qt6::Widgets)
 QT_FEATURE_pushbutton:INTERNAL=ON
+//Qt feature: qeventtransition (from target Qt6::StateMachine)
+QT_FEATURE_qeventtransition:INTERNAL=ON
 //Qt feature: qqnx_imf (from target Qt6::Gui)
 QT_FEATURE_qqnx_imf:INTERNAL=OFF
 //Qt feature: qqnx_pps (from target Qt6::Core)
@@ -1079,6 +1084,8 @@ QT_FEATURE_stack_protector:INTERNAL=ON
 QT_FEATURE_stackedwidget:INTERNAL=ON
 //Qt feature: standarditemmodel (from target Qt6::Gui)
 QT_FEATURE_standarditemmodel:INTERNAL=ON
+//Qt feature: statemachine (from target Qt6::StateMachine)
+QT_FEATURE_statemachine:INTERNAL=ON
 //Qt feature: static (from target Qt6::Core)
 QT_FEATURE_static:INTERNAL=OFF
 //Qt feature: statusbar (from target Qt6::Widgets)

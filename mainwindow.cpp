@@ -20,14 +20,14 @@ MainWindow::MainWindow(QWidget *parent)
     showWin->addTransition(this, &MainWindow::signalOnWaiting, waiting);
     rolling->addTransition(ui->stopButton, &QPushButton::clicked, waiting);
 
-    connect(waiting, &QState::entered, []()
+    connect(waiting, &QState::entered, [=]()
     {
-        qDebug() << "We r in a waiting state\n";
+        ui->statusbar->showMessage("We r in a waiting state");
     });
 
     connect(rolling, &QState::entered, [=]()
     {
-        qDebug() << "We r in a rolling state wait . . .\n";
+        ui->statusbar->showMessage("We r in a rolling state wait . . .");
 
         timer->start(5000);
     });
@@ -36,7 +36,7 @@ MainWindow::MainWindow(QWidget *parent)
     {
         int ret = QMessageBox::information(this, "Win!", "Ur win is 0$ =)", QMessageBox::Cancel);
 
-        qDebug() << "We r showing win\n";
+        ui->statusbar->showMessage("We r showing win");
 
         if(ret == QMessageBox::Cancel)
             emit signalOnWaiting();

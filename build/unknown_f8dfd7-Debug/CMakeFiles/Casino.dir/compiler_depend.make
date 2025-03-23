@@ -3327,6 +3327,7 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
@@ -3399,6 +3400,7 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
+  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvarlengtharray.h \
@@ -3421,12 +3423,14 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtGui/qkeysequence.h \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
@@ -3438,15 +3442,25 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtStateMachine/qtstatemachine-config.h \
   /opt/homebrew/include/QtStateMachine/qtstatemachineexports.h \
   /opt/homebrew/include/QtWidgets/QApplication \
+  /opt/homebrew/include/QtWidgets/QHBoxLayout \
+  /opt/homebrew/include/QtWidgets/QLabel \
   /opt/homebrew/include/QtWidgets/QMainWindow \
   /opt/homebrew/include/QtWidgets/QMenuBar \
   /opt/homebrew/include/QtWidgets/QPushButton \
+  /opt/homebrew/include/QtWidgets/QSpacerItem \
   /opt/homebrew/include/QtWidgets/QStatusBar \
+  /opt/homebrew/include/QtWidgets/QVBoxLayout \
   /opt/homebrew/include/QtWidgets/QWidget \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/qapplication.h \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
+  /opt/homebrew/include/QtWidgets/qlabel.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
   /opt/homebrew/include/QtWidgets/qmenu.h \
   /opt/homebrew/include/QtWidgets/qmenubar.h \
   /opt/homebrew/include/QtWidgets/qpushbutton.h \
@@ -3475,9 +3489,25 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
 
 /opt/homebrew/include/QtWidgets/qmenu.h:
 
+/opt/homebrew/include/QtWidgets/qlayoutitem.h:
+
+/opt/homebrew/include/QtWidgets/qlabel.h:
+
+/opt/homebrew/include/QtWidgets/qframe.h:
+
 /opt/homebrew/include/QtWidgets/QWidget:
 
+/opt/homebrew/include/QtWidgets/QVBoxLayout:
+
+/opt/homebrew/include/QtWidgets/QLabel:
+
+/opt/homebrew/include/QtWidgets/QHBoxLayout:
+
 /opt/homebrew/include/QtWidgets/QApplication:
+
+/opt/homebrew/include/QtCore/qurl.h:
+
+/opt/homebrew/include/QtCore/qiodevice.h:
 
 Casino_autogen/include/ui_mainwindow.h:
 
@@ -3510,6 +3540,8 @@ Casino_autogen/include/ui_mainwindow.h:
 /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h:
 
 /opt/homebrew/include/QtWidgets/qtabwidget.h:
+
+/opt/homebrew/include/QtWidgets/QSpacerItem:
 
 /opt/homebrew/include/QtWidgets/qsizepolicy.h:
 
@@ -3743,6 +3775,8 @@ Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uintptr_t.h:
 
+/opt/homebrew/include/QtWidgets/qboxlayout.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_short.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_u_int8_t.h:
@@ -3956,6 +3990,8 @@ Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/cmath:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/clocale:
+
+/opt/homebrew/include/QtGui/qtextdocument.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
@@ -4396,6 +4432,8 @@ Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
+
+/opt/homebrew/include/QtWidgets/qlayout.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__verbose_abort:
 
@@ -5479,6 +5517,8 @@ Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
 
+/opt/homebrew/include/QtGui/qpicture.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/no_destroy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/find.h:
@@ -5706,6 +5746,8 @@ Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/limits:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__bit/bit_cast.h:
+
+/opt/homebrew/include/QtWidgets/qgridlayout.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_limits.h:
 

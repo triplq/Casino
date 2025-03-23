@@ -1163,4 +1163,9 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/QStatusBar \
   /opt/homebrew/include/QtWidgets/qstatusbar.h \
+  /opt/homebrew/include/QtWidgets/QVBoxLayout \
+  /opt/homebrew/include/QtWidgets/qboxlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayout.h \
+  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
+  /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/QWidget

@@ -30,15 +30,8 @@ private:
     QState *rolling;
     QState *showWin;
 
-// private slots:
-//     void slotOnWaiting();
-//     void slotOnShowWin();
-//     void slotOnRolling();
-
  signals:
     void signalOnWaiting();
-//     void signalOnShowWin();
-//     void signalOnRolling();
 
 };
 #endif // MAINWINDOW_H
