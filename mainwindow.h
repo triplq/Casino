@@ -6,6 +6,9 @@
 #include <QState>
 #include <QTimer>
 #include <QMessageBox>
+#include <QPixmap>
+#include <QVector>
+#include "reel.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -29,6 +32,10 @@ private:
     QState *waiting;
     QState *rolling;
     QState *showWin;
+
+    void startStateMachine();
+
+    QVector<QPixmap*> images;
 
  signals:
     void signalOnWaiting();

@@ -28,6 +28,7 @@ public:
     QVBoxLayout *verticalLayout;
     QPushButton *startButton;
     QPushButton *stopButton;
+    QWidget *slotsWidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -58,6 +59,9 @@ public:
 
         verticalLayout->addWidget(stopButton);
 
+        slotsWidget = new QWidget(centralwidget);
+        slotsWidget->setObjectName("slotsWidget");
+        slotsWidget->setGeometry(QRect(30, 30, 541, 201));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");

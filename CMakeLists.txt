@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(Casino LANGUAGES CXX)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets StateMachine)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets StateMachine Gui)
 
 qt_standard_project_setup()
 
@@ -12,6 +12,8 @@ qt_add_executable(Casino
     mainwindow.h
     mainwindow.ui
     icons/apple.png icons/banana.png icons/pineapple.png icons/watermelon.png
+    reel.h reel.cpp
+
 )
 
 target_link_libraries(Casino
@@ -19,6 +21,7 @@ target_link_libraries(Casino
         Qt::Core
         Qt::Widgets
         Qt::StateMachine
+        Qt::Gui
 )
 
 include(GNUInstallDirs)

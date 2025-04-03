@@ -375,7 +375,8 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
-		]
+		],
+		[ "/Users/alexey/Casino/reel.h", "MU", "EWIEGA46WW/moc_reel.cpp", null ]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/include",
@@ -438,7 +439,8 @@
 	"SOURCES" : 
 	[
 		[ "/Users/alexey/Casino/main.cpp", "MU", null ],
-		[ "/Users/alexey/Casino/mainwindow.cpp", "MU", null ]
+		[ "/Users/alexey/Casino/mainwindow.cpp", "MU", null ],
+		[ "/Users/alexey/Casino/reel.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

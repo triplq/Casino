@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Casino.dir/main.cpp.o.d"
   "CMakeFiles/Casino.dir/mainwindow.cpp.o"
   "CMakeFiles/Casino.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/Casino.dir/reel.cpp.o"
+  "CMakeFiles/Casino.dir/reel.cpp.o.d"
   "Casino.app/Contents/MacOS/Casino"
   "Casino.pdb"
 )

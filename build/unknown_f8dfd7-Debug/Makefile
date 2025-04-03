@@ -272,6 +272,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+reel.o: reel.cpp.o
+.PHONY : reel.o
+
+# target to build an object file
+reel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/reel.cpp.o
+.PHONY : reel.cpp.o
+
+reel.i: reel.cpp.i
+.PHONY : reel.i
+
+# target to preprocess a source file
+reel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/reel.cpp.i
+.PHONY : reel.cpp.i
+
+reel.s: reel.cpp.s
+.PHONY : reel.s
+
+# target to generate assembly for a file
+reel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/reel.cpp.s
+.PHONY : reel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +320,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... reel.o"
+	@echo "... reel.i"
+	@echo "... reel.s"
 .PHONY : help
 
 
