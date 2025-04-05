@@ -4,7 +4,6 @@
 #include <QMainWindow>
 #include <QStateMachine>
 #include <QState>
-#include <QTimer>
 #include <QMessageBox>
 #include <QPixmap>
 #include <QVector>
@@ -37,8 +36,13 @@ private:
 
     QVector<QPixmap*> images;
 
+    Reel *reel1;
+    Reel *reel2;
+    Reel *reel3;
+
  signals:
     void signalOnWaiting();
+    void signalOnWin();
 
 };
 #endif // MAINWINDOW_H

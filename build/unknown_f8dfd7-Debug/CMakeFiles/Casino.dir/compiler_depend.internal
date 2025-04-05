@@ -1181,13 +1181,11 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup
  /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation
  /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator
- /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine
  /opt/homebrew/lib/QtCore.framework/Headers/QTimer
  /opt/homebrew/lib/QtCore.framework/Headers/QVector
  /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h
  /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h
  /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h
- /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h
  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h
  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h
  /opt/homebrew/lib/QtGui.framework/Headers/QPainter
@@ -2392,13 +2390,11 @@ CMakeFiles/Casino.dir/main.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup
  /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation
  /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator
- /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine
  /opt/homebrew/lib/QtCore.framework/Headers/QTimer
  /opt/homebrew/lib/QtCore.framework/Headers/QVector
  /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h
  /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h
  /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h
- /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h
  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h
  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h
  /opt/homebrew/lib/QtGui.framework/Headers/QPainter
@@ -3624,13 +3620,11 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup
  /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation
  /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator
- /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine
  /opt/homebrew/lib/QtCore.framework/Headers/QTimer
  /opt/homebrew/lib/QtCore.framework/Headers/QVector
  /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h
  /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h
  /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h
- /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h
  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h
  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h
  /opt/homebrew/lib/QtGui.framework/Headers/QPainter
@@ -4813,12 +4807,10 @@ CMakeFiles/Casino.dir/reel.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup
  /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation
  /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator
- /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine
  /opt/homebrew/lib/QtCore.framework/Headers/QTimer
  /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h
  /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h
  /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h
- /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h
  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h
  /opt/homebrew/lib/QtGui.framework/Headers/QPainter
  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap

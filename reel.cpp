@@ -14,7 +14,7 @@ Reel::Reel(QWidget *parent)
 
     anim_group->addAnimation(animReel);
 
-    connect(anim_group, &QParallelAnimationGroup::finished, this, &Reel::onAnimationFinished);
+    connect(anim_group, &QParallelAnimationGroup::finished, this, &Reel::spinningFinished);
 }
 
 void Reel::setScrollOffset(qreal offset)
@@ -45,47 +45,40 @@ void Reel::setSlots(const QVector<QPixmap>& n_images)
 
 void Reel::spin(int durationMs)
 {
-    if(anim_group->state() == QAbstractAnimation::Running)
-        anim_group->stop();
-
     QPropertyAnimation* animReel = qobject_cast<QPropertyAnimation*>(anim_group->animationAt(0));
     animReel->setStartValue(m_scrollOffset);
     animReel->setDuration(durationMs);
-    animReel->setEndValue(m_scrollOffset + 10.5 + QRandomGenerator::global()->bounded(3));
+    animReel->setEndValue(m_scrollOffset + 30.0 + QRandomGenerator::global()->bounded(3));
 
     anim_group->start();
 }
 
-qreal Reel::currentOffsetIndex() const
+void Reel::stop_spinning()
 {
-    //return static_cast<int>(qRound(m_scrollOffset) % images.size());
+    anim_group->stop();
+    snapToPosition();
+    emit spinningStopped();
+}
 
-    return m_scrollOffset; // % images.size();
+int Reel::currentOffsetIndex() const
+{
+    return qRound(m_scrollOffset) % images.size();
 }
 
 qreal Reel::getScrollOffset() const { return m_scrollOffset; }
-
-void Reel::onAnimationFinished()
-{
-    snapToPosition();
-
-    update();
-
-    emit spinningStoped();
-}
 
 void Reel::paintEvent(QPaintEvent *event)
 {
     QPainter painter(this);
 
-    painter.fillRect(rect(), Qt::black);
+    painter.fillRect(rect(), Qt::transparent);
 
     const int visibleImages = 2;
     const qreal imageHeight = height() / visibleImages;
 
     if(images.isEmpty()) return;
 
-    for(int i = -1; i <= visibleImages; i++)
+    for(int i = 0; i <= visibleImages; i++)
     {
         qreal yPos = (i - std::fmod(m_scrollOffset, 1.0)) * imageHeight;
         int imageIndex = (i + static_cast<int>(m_scrollOffset)) % images.size();

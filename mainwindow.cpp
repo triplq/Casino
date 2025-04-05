@@ -7,12 +7,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //startStateMachine();
-
     QVector<QPixmap> images;
-    Reel *reel1 = new Reel;
-    Reel *reel2 = new Reel;
-    Reel *reel3 = new Reel;
+    reel1 = new Reel;
+    reel2 = new Reel;
+    reel3 = new Reel;
 
     QHBoxLayout* layout = new QHBoxLayout(ui->slotsWidget);
     layout->addWidget(reel1);
@@ -28,47 +26,62 @@ MainWindow::MainWindow(QWidget *parent)
     reel2->setSlots(images);
     reel3->setSlots(images);
 
-    reel1->spin(2500);
-    reel2->spin(2500);
-    reel3->spin(2500);
+    startStateMachine();
 }
 
 void MainWindow::startStateMachine()
 {
     QStateMachine* machine = new QStateMachine();
 
-    QTimer *timer = new QTimer();
-
     QState* waiting = new QState();
     QState* rolling = new QState();
     QState* showWin = new QState();
 
     waiting->addTransition(ui->startButton, &QPushButton::clicked, rolling);
-    rolling->addTransition(timer, &QTimer::timeout, showWin);
-    showWin->addTransition(this, &MainWindow::signalOnWaiting, waiting);
+
     rolling->addTransition(ui->stopButton, &QPushButton::clicked, waiting);
+    rolling->addTransition(this, &MainWindow::signalOnWaiting, waiting);
+    rolling->addTransition(this, &MainWindow::signalOnWin, showWin);
+
+    showWin->addTransition(this, &MainWindow::signalOnWaiting, waiting);
+
+    //connect(reel3, &Reel::spinningStopped, [=](){ emit signalOnWaiting(); });
+
+    connect(reel3, &Reel::spinningFinished, [=]()
+    {
+        if(reel1->currentOffsetIndex() == reel2->currentOffsetIndex() && reel2->currentOffsetIndex() == reel3->currentOffsetIndex())
+            emit signalOnWin();
+        else
+            emit signalOnWaiting();
+    });
 
     connect(waiting, &QState::entered, [=]()
-        {
-            ui->statusbar->showMessage("We r in a waiting state");
-        });
+    {
+        reel1->stop_spinning();
+        reel2->stop_spinning();
+        reel3->stop_spinning();
+
+        ui->statusbar->showMessage("Waiting . . .");
+    });
 
     connect(rolling, &QState::entered, [=]()
-        {
-            ui->statusbar->showMessage("We r in a rolling state wait . . .");
+    {
+        reel1->spin(4000);
+        reel2->spin(5000);
+        reel3->spin(6000);
 
-            timer->start(2500);
-        });
+        ui->statusbar->showMessage("Rolling . . .");
+    });
 
     connect(showWin, &QState::entered, [=]()
-        {
-            int ret = QMessageBox::information(this, "Win!", "Ur win is 0$ =)", QMessageBox::Cancel);
+    {
+        ui->statusbar->showMessage("WIN");
 
-            ui->statusbar->showMessage("We r showing win");
+        int ret = QMessageBox::information(this, "Win!", "U have a great WIN", QMessageBox::Cancel);
 
-            if(ret == QMessageBox::Cancel)
-                emit signalOnWaiting();
-        });
+        if(ret == QMessageBox::Cancel)
+            emit signalOnWaiting();
+    });
 
     machine->addState(showWin);
     machine->addState(waiting);

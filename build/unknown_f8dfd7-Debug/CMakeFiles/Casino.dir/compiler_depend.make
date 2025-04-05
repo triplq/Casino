@@ -1180,13 +1180,11 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: Casino_autogen/mocs
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
   /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
@@ -2390,13 +2388,11 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
   /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
@@ -3621,13 +3617,11 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
   /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
@@ -4809,12 +4803,10 @@ CMakeFiles/Casino.dir/reel.cpp.o: /Users/alexey/Casino/reel.cpp \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
   /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
   /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
@@ -4871,8 +4863,6 @@ Casino_autogen/include/ui_mainwindow.h:
 /opt/homebrew/lib/QtGui.framework/Headers/QPixmap:
 
 /opt/homebrew/lib/QtGui.framework/Headers/QPainter:
-
-/opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h:
 
@@ -6999,8 +6989,6 @@ Casino_autogen/EWIEGA46WW/moc_reel.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/memory:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
-
-/opt/homebrew/lib/QtCore.framework/Headers/QTimeLine:
 
 /opt/homebrew/include/QtCore/qhash.h:
 

@@ -1147,13 +1147,11 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /Users/alexey/Casino/reel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
-  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/include/QtCore/qvariantanimation.h \
   /opt/homebrew/include/QtCore/qabstractanimation.h \
+  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/include/QtCore/qanimationgroup.h \

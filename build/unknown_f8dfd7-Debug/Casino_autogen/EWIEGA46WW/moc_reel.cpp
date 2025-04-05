@@ -38,10 +38,10 @@ struct qt_meta_tag_ZN4ReelE_t {};
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN4ReelE = QtMocHelpers::stringData(
     "Reel",
-    "spinningStoped",
+    "spinningFinished",
     "",
+    "spinningStopped",
     "scrollOffsetChanged",
-    "onAnimationFinished",
     "scrollOffset"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -59,24 +59,20 @@ Q_CONSTINIT static const uint qt_meta_data_ZN4ReelE[] = {
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       2,       // signalCount
+       3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
        1,    0,   32,    2, 0x06,    2 /* Public */,
        3,    0,   33,    2, 0x06,    3 /* Public */,
-
- // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       4,    0,   34,    2, 0x08,    4 /* Private */,
+       4,    0,   34,    2, 0x06,    4 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
     QMetaType::Void,
-
- // slots: parameters
     QMetaType::Void,
 
  // properties: name, type, flags, notifyId, revision
-       5, QMetaType::QReal, 0x00015103, uint(1), 0,
+       5, QMetaType::QReal, 0x00015103, uint(2), 0,
 
        0        // eod
 };
@@ -92,11 +88,11 @@ Q_CONSTINIT const QMetaObject Reel::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<qreal, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Reel, std::true_type>,
-        // method 'spinningStoped'
+        // method 'spinningFinished'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'spinningStopped'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'scrollOffsetChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'onAnimationFinished'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -107,9 +103,9 @@ void Reel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
     auto *_t = static_cast<Reel *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->spinningStoped(); break;
-        case 1: _t->scrollOffsetChanged(); break;
-        case 2: _t->onAnimationFinished(); break;
+        case 0: _t->spinningFinished(); break;
+        case 1: _t->spinningStopped(); break;
+        case 2: _t->scrollOffsetChanged(); break;
         default: ;
         }
     }
@@ -117,15 +113,22 @@ void Reel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _q_method_type = void (Reel::*)();
-            if (_q_method_type _q_method = &Reel::spinningStoped; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            if (_q_method_type _q_method = &Reel::spinningFinished; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
         }
         {
             using _q_method_type = void (Reel::*)();
-            if (_q_method_type _q_method = &Reel::scrollOffsetChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            if (_q_method_type _q_method = &Reel::spinningStopped; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 1;
+                return;
+            }
+        }
+        {
+            using _q_method_type = void (Reel::*)();
+            if (_q_method_type _q_method = &Reel::scrollOffsetChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 2;
                 return;
             }
         }
@@ -184,14 +187,20 @@ int Reel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void Reel::spinningStoped()
+void Reel::spinningFinished()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1
-void Reel::scrollOffsetChanged()
+void Reel::spinningStopped()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void Reel::scrollOffsetChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP

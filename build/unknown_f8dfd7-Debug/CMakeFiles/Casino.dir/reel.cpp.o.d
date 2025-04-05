@@ -1120,18 +1120,13 @@ CMakeFiles/Casino.dir/reel.cpp.o: /Users/alexey/Casino/reel.cpp \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
-  /opt/homebrew/include/QtCore/qbasictimer.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
-  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
   /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/include/QtCore/qvariantanimation.h \
   /opt/homebrew/include/QtCore/qabstractanimation.h \
+  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/include/QtCore/qanimationgroup.h \
@@ -1174,4 +1169,7 @@ CMakeFiles/Casino.dir/reel.cpp.o: /Users/alexey/Casino/reel.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/weibull_distribution.h
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
+  /opt/homebrew/include/QtCore/qbasictimer.h

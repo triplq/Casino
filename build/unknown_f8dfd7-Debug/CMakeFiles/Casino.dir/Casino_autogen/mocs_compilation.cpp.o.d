@@ -1149,13 +1149,11 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/../../../../reel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimeLine \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimeline.h \
-  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/include/QtCore/qvariantanimation.h \
   /opt/homebrew/include/QtCore/qabstractanimation.h \
+  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/include/QtCore/qanimationgroup.h \

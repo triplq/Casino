@@ -2,8 +2,6 @@
 #define REEL_H
 
 #include <QWidget>
-#include <QTimer>
-#include <QTimeLine>
 #include <QPixmap>
 #include <QPropertyAnimation>
 #include <QParallelAnimationGroup>
@@ -16,7 +14,7 @@ class Reel : public QWidget
     Q_PROPERTY(qreal scrollOffset READ getScrollOffset WRITE setScrollOffset NOTIFY scrollOffsetChanged)
 private:
     QVector<QPixmap> images;
-    qreal m_scrollOffset = 0.0;
+    qreal m_scrollOffset = 0.5;
     QParallelAnimationGroup *anim_group;
 
     void setScrollOffset(qreal offset);
@@ -27,15 +25,14 @@ public:
 
     void setSlots(const QVector<QPixmap>& n_images);
     void spin(int durationMs);
-    qreal currentOffsetIndex() const;
+    void stop_spinning();
+    int currentOffsetIndex() const;
     qreal getScrollOffset() const;
 
 signals:
-    void spinningStoped();
+    void spinningFinished();
+    void spinningStopped();
     void scrollOffsetChanged();
-
-private slots:
-    void onAnimationFinished();
 
 protected:
     void paintEvent(QPaintEvent *event) override;
