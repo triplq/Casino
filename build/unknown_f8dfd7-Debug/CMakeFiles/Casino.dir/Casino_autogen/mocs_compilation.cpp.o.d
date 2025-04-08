@@ -1135,9 +1135,6 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtStateMachine/qtstatemachineexports.h \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/QState \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/qstate.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QTimer \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtimer.h \
-  /opt/homebrew/include/QtCore/qbasictimer.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \

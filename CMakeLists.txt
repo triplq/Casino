@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(Casino LANGUAGES CXX)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets StateMachine Gui)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets StateMachine Gui Test)
 
 qt_standard_project_setup()
 
@@ -22,6 +22,7 @@ target_link_libraries(Casino
         Qt::Widgets
         Qt::StateMachine
         Qt::Gui
+        Qt::Test
 )
 
 include(GNUInstallDirs)

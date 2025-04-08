@@ -34,7 +34,9 @@
 			"/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
 			"/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake",
 			"/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+			"/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets.cmake",
+			"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -68,7 +70,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 29,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -176,6 +178,32 @@
 				"file" : 9,
 				"line" : 62,
 				"parent" : 24
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 190,
+				"parent" : 8
+			},
+			{
+				"file" : 12,
+				"parent" : 26
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 55,
+				"parent" : 27
+			},
+			{
+				"file" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 62,
+				"parent" : 29
 			}
 		]
 	},
@@ -204,6 +232,18 @@
 				},
 				{
 					"backtrace" : 6,
+					"define" : "QT_TESTCASE_BUILDDIR=\"/Users/alexey/Casino/build/unknown_f8dfd7-Debug\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TESTCASE_SOURCEDIR=\"/Users/alexey/Casino\""
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 6,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -228,6 +268,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/lib/QtStateMachine.framework"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/lib/QtTest.framework"
 				}
 			],
 			"includes" : 
@@ -265,6 +310,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/lib/QtStateMachine.framework/Headers"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/lib/QtTest.framework/Headers"
 				}
 			],
 			"language" : "CXX",
@@ -346,12 +396,12 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-framework AGL",
+				"backtrace" : 6,
+				"fragment" : "/opt/homebrew/lib/QtTest.framework/Versions/A/QtTest",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 19,
-				"fragment" : "-framework AppKit",
+				"fragment" : "-framework AGL",
 				"role" : "libraries"
 			},
 			{
@@ -376,17 +426,37 @@
 			},
 			{
 				"backtrace" : 25,
-				"fragment" : "-framework IOKit",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 25,
 				"fragment" : "-framework DiskArbitration",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 25,
 				"fragment" : "-framework UniformTypeIdentifiers",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework Security",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-framework AppKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework ApplicationServices",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-framework Foundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-framework IOKit",
 				"role" : "libraries"
 			}
 		],

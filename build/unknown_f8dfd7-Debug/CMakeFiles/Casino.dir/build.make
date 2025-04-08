@@ -143,6 +143,7 @@ Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/build.make
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtStateMachine.framework/Versions/A/QtStateMachine
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
+Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtTest.framework/Versions/A/QtTest
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Casino.app/Contents/MacOS/Casino"

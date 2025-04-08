@@ -360,6 +360,15 @@
 		"/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineTargets-release.cmake",
 		"/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineAdditionalTargetInfo.cmake",
 		"/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineVersionlessAliasTargets.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestDependencies.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
+		"/opt/homebrew/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/macos/Info.plist.app.in"
@@ -381,7 +390,16 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_STATEMACHINE_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_STATEMACHINE_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/Users/alexey/Casino/build/unknown_f8dfd7-Debug\"",
+		"QT_TESTCASE_SOURCEDIR=\"/Users/alexey/Casino\"",
+		"QT_TESTLIB_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -401,6 +419,8 @@
 		"/opt/homebrew/lib/QtGui.framework",
 		"/opt/homebrew/lib/QtStateMachine.framework/Headers",
 		"/opt/homebrew/lib/QtStateMachine.framework",
+		"/opt/homebrew/lib/QtTest.framework/Headers",
+		"/opt/homebrew/lib/QtTest.framework",
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1",
 		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include",
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include",

@@ -45,6 +45,7 @@ void Reel::setSlots(const QVector<QPixmap>& n_images)
 
 void Reel::spin(int durationMs)
 {
+    anim_group->stop();
     QPropertyAnimation* animReel = qobject_cast<QPropertyAnimation*>(anim_group->animationAt(0));
     animReel->setStartValue(m_scrollOffset);
     animReel->setDuration(durationMs);
@@ -57,7 +58,6 @@ void Reel::stop_spinning()
 {
     anim_group->stop();
     snapToPosition();
-    emit spinningStopped();
 }
 
 int Reel::currentOffsetIndex() const
@@ -88,5 +88,5 @@ void Reel::paintEvent(QPaintEvent *event)
         painter.drawPixmap(0, yPos, width(), imageHeight, images.at(imageIndex));
     }
 
-    update();
+    //update();
 }

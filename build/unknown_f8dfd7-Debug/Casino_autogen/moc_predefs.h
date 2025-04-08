@@ -1,6 +1,9 @@
 #define QT_CORE_LIB 1
 #define QT_GUI_LIB 1
 #define QT_STATEMACHINE_LIB 1
+#define QT_TESTCASE_BUILDDIR "/Users/alexey/Casino/build/unknown_f8dfd7-Debug"
+#define QT_TESTCASE_SOURCEDIR "/Users/alexey/Casino"
+#define QT_TESTLIB_LIB 1
 #define QT_WIDGETS_LIB 1
 #define SIZEOF_DPTR (sizeof(void*))
 #define _LP64 1

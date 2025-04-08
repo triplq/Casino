@@ -20,6 +20,8 @@ private:
     void setScrollOffset(qreal offset);
     void snapToPosition();
 
+    bool spinning = false;
+
 public:
     explicit Reel(QWidget *parent = nullptr);
 
@@ -28,6 +30,8 @@ public:
     void stop_spinning();
     int currentOffsetIndex() const;
     qreal getScrollOffset() const;
+
+    bool isSpinning();
 
 signals:
     void spinningFinished();
