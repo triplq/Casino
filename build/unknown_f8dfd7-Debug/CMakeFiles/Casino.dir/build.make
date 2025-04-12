@@ -69,10 +69,20 @@ include CMakeFiles/Casino.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Casino.dir/flags.make
 
+qrc_casino_resources.cpp: /Users/alexey/Casino/casino_resources.qrc
+qrc_casino_resources.cpp: /Users/alexey/Casino/icons/apple.png
+qrc_casino_resources.cpp: /Users/alexey/Casino/icons/banana.png
+qrc_casino_resources.cpp: /Users/alexey/Casino/icons/pineapple.png
+qrc_casino_resources.cpp: /Users/alexey/Casino/icons/watermelon.png
+qrc_casino_resources.cpp: casino_resources.qrc.depends
+qrc_casino_resources.cpp: /opt/homebrew/share/qt/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_casino_resources.cpp"
+	/opt/homebrew/share/qt/libexec/rcc --name casino_resources --output /Users/alexey/Casino/build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp /Users/alexey/Casino/casino_resources.qrc
+
 CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: CMakeFiles/Casino.dir/flags.make
 CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: Casino_autogen/mocs_compilation.cpp
 CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: CMakeFiles/Casino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o -c /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/mocs_compilation.cpp
 
 CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.i: cmake_force
@@ -86,7 +96,7 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/Casino.dir/main.cpp.o: CMakeFiles/Casino.dir/flags.make
 CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp
 CMakeFiles/Casino.dir/main.cpp.o: CMakeFiles/Casino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Casino.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Casino.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Casino.dir/main.cpp.o -MF CMakeFiles/Casino.dir/main.cpp.o.d -o CMakeFiles/Casino.dir/main.cpp.o -c /Users/alexey/Casino/main.cpp
 
 CMakeFiles/Casino.dir/main.cpp.i: cmake_force
@@ -100,7 +110,7 @@ CMakeFiles/Casino.dir/main.cpp.s: cmake_force
 CMakeFiles/Casino.dir/mainwindow.cpp.o: CMakeFiles/Casino.dir/flags.make
 CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp
 CMakeFiles/Casino.dir/mainwindow.cpp.o: CMakeFiles/Casino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Casino.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Casino.dir/mainwindow.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Casino.dir/mainwindow.cpp.o -MF CMakeFiles/Casino.dir/mainwindow.cpp.o.d -o CMakeFiles/Casino.dir/mainwindow.cpp.o -c /Users/alexey/Casino/mainwindow.cpp
 
 CMakeFiles/Casino.dir/mainwindow.cpp.i: cmake_force
@@ -114,7 +124,7 @@ CMakeFiles/Casino.dir/mainwindow.cpp.s: cmake_force
 CMakeFiles/Casino.dir/reel.cpp.o: CMakeFiles/Casino.dir/flags.make
 CMakeFiles/Casino.dir/reel.cpp.o: /Users/alexey/Casino/reel.cpp
 CMakeFiles/Casino.dir/reel.cpp.o: CMakeFiles/Casino.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Casino.dir/reel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Casino.dir/reel.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Casino.dir/reel.cpp.o -MF CMakeFiles/Casino.dir/reel.cpp.o.d -o CMakeFiles/Casino.dir/reel.cpp.o -c /Users/alexey/Casino/reel.cpp
 
 CMakeFiles/Casino.dir/reel.cpp.i: cmake_force
@@ -125,12 +135,27 @@ CMakeFiles/Casino.dir/reel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Casino.dir/reel.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/Casino/reel.cpp -o CMakeFiles/Casino.dir/reel.cpp.s
 
+CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o: CMakeFiles/Casino.dir/flags.make
+CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o: qrc_casino_resources.cpp
+CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o: CMakeFiles/Casino.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o -MF CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o.d -o CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o -c /Users/alexey/Casino/build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp
+
+CMakeFiles/Casino.dir/qrc_casino_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Casino.dir/qrc_casino_resources.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alexey/Casino/build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp > CMakeFiles/Casino.dir/qrc_casino_resources.cpp.i
+
+CMakeFiles/Casino.dir/qrc_casino_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Casino.dir/qrc_casino_resources.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alexey/Casino/build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp -o CMakeFiles/Casino.dir/qrc_casino_resources.cpp.s
+
 # Object files for target Casino
 Casino_OBJECTS = \
 "CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Casino.dir/main.cpp.o" \
 "CMakeFiles/Casino.dir/mainwindow.cpp.o" \
-"CMakeFiles/Casino.dir/reel.cpp.o"
+"CMakeFiles/Casino.dir/reel.cpp.o" \
+"CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o"
 
 # External object files for target Casino
 Casino_EXTERNAL_OBJECTS =
@@ -139,14 +164,14 @@ Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/Casino_autogen/mocs_comp
 Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/main.cpp.o
 Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/mainwindow.cpp.o
 Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/reel.cpp.o
+Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o
 Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/build.make
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtStateMachine.framework/Versions/A/QtStateMachine
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
-Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtTest.framework/Versions/A/QtTest
 Casino.app/Contents/MacOS/Casino: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 Casino.app/Contents/MacOS/Casino: CMakeFiles/Casino.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Casino.app/Contents/MacOS/Casino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Casino.app/Contents/MacOS/Casino"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Casino.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,7 +182,7 @@ CMakeFiles/Casino.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/Casino.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/Casino.dir/clean
 
-CMakeFiles/Casino.dir/depend:
+CMakeFiles/Casino.dir/depend: qrc_casino_resources.cpp
 	cd /Users/alexey/Casino/build/unknown_f8dfd7-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alexey/Casino /Users/alexey/Casino /Users/alexey/Casino/build/unknown_f8dfd7-Debug /Users/alexey/Casino/build/unknown_f8dfd7-Debug /Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles/Casino.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Casino.dir/depend
 

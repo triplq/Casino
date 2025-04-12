@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   ".qtc/package-manager/auto-setup.cmake"
   "CMakeFiles/3.29.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.4/CMakeSystem.cmake"
+  "/Users/alexey/Casino/casino_resources.qrc"
   "/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/FindWrapOpenGL.cmake"
   "/opt/homebrew/Cellar/qt/6.8.2/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake"
@@ -252,14 +253,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineTargets-release.cmake"
   "/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineTargets.cmake"
   "/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineVersionlessAliasTargets.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfig.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestDependencies.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets.cmake"
-  "/opt/homebrew/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake"
   "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake"
   "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake"
   "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake"
@@ -292,6 +285,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "casino_resources.qrc.depends"
   ".qt/info_plist/Casino/Info.plist"
   "CMakeFiles/Casino_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"

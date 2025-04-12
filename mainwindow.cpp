@@ -17,10 +17,10 @@ MainWindow::MainWindow(QWidget *parent)
     layout->addWidget(reel2);
     layout->addWidget(reel3);
 
-    images.emplace_back(QPixmap("/Users/alexey/Casino/icons/apple.png"));
-    images.emplace_back(QPixmap("/Users/alexey/Casino/icons/pineapple.png"));
-    images.emplace_back(QPixmap("/Users/alexey/Casino/icons/watermelon.png"));
-    images.emplace_back(QPixmap("/Users/alexey/Casino/icons/banana.png"));
+    images.emplace_back(QPixmap(":/icons/apple.png"));
+    images.emplace_back(QPixmap(":/icons/pineapple.png"));
+    images.emplace_back(QPixmap(":/icons/watermelon.png"));
+    images.emplace_back(QPixmap(":/icons/banana.png"));
 
     reel1->setSlots(images);
     reel2->setSlots(images);

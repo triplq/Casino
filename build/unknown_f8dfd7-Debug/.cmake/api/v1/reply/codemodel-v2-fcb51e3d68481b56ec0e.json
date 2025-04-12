@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-6b5a2e655db874a4fbbd.json",
+					"jsonFile" : "directory-.-Debug-2c1014f545894bc7e195.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Casino::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Casino-Debug-af8319bae737e0a2a639.json",
+					"jsonFile" : "target-Casino-Debug-757f8a882598545cdd26.json",
 					"name" : "Casino",
 					"projectIndex" : 0
 				},

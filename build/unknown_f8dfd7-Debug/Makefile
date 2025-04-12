@@ -272,6 +272,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+qrc_casino_resources.o: qrc_casino_resources.cpp.o
+.PHONY : qrc_casino_resources.o
+
+# target to build an object file
+qrc_casino_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o
+.PHONY : qrc_casino_resources.cpp.o
+
+qrc_casino_resources.i: qrc_casino_resources.cpp.i
+.PHONY : qrc_casino_resources.i
+
+# target to preprocess a source file
+qrc_casino_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/qrc_casino_resources.cpp.i
+.PHONY : qrc_casino_resources.cpp.i
+
+qrc_casino_resources.s: qrc_casino_resources.cpp.s
+.PHONY : qrc_casino_resources.s
+
+# target to generate assembly for a file
+qrc_casino_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/qrc_casino_resources.cpp.s
+.PHONY : qrc_casino_resources.cpp.s
+
 reel.o: reel.cpp.o
 .PHONY : reel.o
 
@@ -320,6 +344,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... qrc_casino_resources.o"
+	@echo "... qrc_casino_resources.i"
+	@echo "... qrc_casino_resources.s"
 	@echo "... reel.o"
 	@echo "... reel.i"
 	@echo "... reel.s"

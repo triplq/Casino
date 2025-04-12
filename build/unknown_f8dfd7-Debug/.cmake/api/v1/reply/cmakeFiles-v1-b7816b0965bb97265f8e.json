@@ -1509,6 +1509,9 @@
 			"path" : "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake"
 		},
 		{
+			"path" : "casino_resources.qrc"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake"

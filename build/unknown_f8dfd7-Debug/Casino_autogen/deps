@@ -960,6 +960,7 @@ Casino_autogen/timestamp: \
 	/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeCXXCompiler.cmake \
 	/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeSystem.cmake \
 	/Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/moc_predefs.h \
+	/Users/alexey/Casino/casino_resources.qrc \
 	/Users/alexey/Casino/main.cpp \
 	/Users/alexey/Casino/mainwindow.cpp \
 	/Users/alexey/Casino/mainwindow.h \
@@ -1356,14 +1357,6 @@ Casino_autogen/timestamp: \
 	/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineTargets-release.cmake \
 	/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6StateMachine/Qt6StateMachineVersionlessAliasTargets.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfig.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestDependencies.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestTargets.cmake \
-	/opt/homebrew/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \

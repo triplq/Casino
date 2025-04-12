@@ -8,10 +8,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/Casino.dir/main.cpp.o.d"
   "CMakeFiles/Casino.dir/mainwindow.cpp.o"
   "CMakeFiles/Casino.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o"
+  "CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o.d"
   "CMakeFiles/Casino.dir/reel.cpp.o"
   "CMakeFiles/Casino.dir/reel.cpp.o.d"
   "Casino.app/Contents/MacOS/Casino"
   "Casino.pdb"
+  "qrc_casino_resources.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
