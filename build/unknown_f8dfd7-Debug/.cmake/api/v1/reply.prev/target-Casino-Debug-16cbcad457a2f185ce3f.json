@@ -68,13 +68,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 31,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -282,18 +282,19 @@
 				1,
 				2,
 				6,
-				8
+				7,
+				9
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "Casino_autogen::@6890427a1f51a3e7e1df"
+			"id" : "Casino_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Casino_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "Casino_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Casino::@6890427a1f51a3e7e1df",
@@ -407,8 +408,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				9,
-				10
+				10,
+				11
 			]
 		},
 		{
@@ -418,7 +419,8 @@
 				1,
 				2,
 				6,
-				8
+				7,
+				9
 			]
 		},
 		{
@@ -426,7 +428,8 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				5,
+				8
 			]
 		},
 		{
@@ -440,14 +443,14 @@
 			"name" : "Resources",
 			"sourceIndexes" : 
 			[
-				7
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				13
 			]
 		}
 	],
@@ -495,14 +498,20 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "casino_resources.qrc",
-			"sourceGroupIndex" : 4
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "cat.h",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp",
+			"path" : "cat.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -516,6 +525,11 @@
 			"isGenerated" : true,
 			"path" : "build/unknown_f8dfd7-Debug/Casino_autogen/timestamp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "casino_resources.qrc",
+			"sourceGroupIndex" : 4
 		},
 		{
 			"backtrace" : 0,

@@ -371,6 +371,7 @@
 	"DEP_FILE_RULE_NAME" : "Casino_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[ "/Users/alexey/Casino/cat.h", "MU", "EWIEGA46WW/moc_cat.cpp", null ],
 		[
 			"/Users/alexey/Casino/mainwindow.h",
 			"MU",
@@ -442,6 +443,7 @@
 	"SETTINGS_FILE" : "/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles/Casino_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/alexey/Casino/cat.cpp", "MU", null ],
 		[ "/Users/alexey/Casino/main.cpp", "MU", null ],
 		[ "/Users/alexey/Casino/mainwindow.cpp", "MU", null ],
 		[ "/Users/alexey/Casino/reel.cpp", "MU", null ]

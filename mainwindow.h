@@ -8,6 +8,7 @@
 #include <QPixmap>
 #include <QVector>
 #include "reel.h"
+#include "cat.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -39,6 +40,8 @@ private:
     Reel *reel1;
     Reel *reel2;
     Reel *reel3;
+
+    Cat *cat;
 
  signals:
     void signalOnWaiting();

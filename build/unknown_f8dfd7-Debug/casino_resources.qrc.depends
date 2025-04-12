@@ -4,5 +4,7 @@
         <file>icons/banana.png</file>
         <file>icons/pineapple.png</file>
         <file>icons/watermelon.png</file>
+        <file>cat/closecat.png</file>
+        <file>cat/opencat.png</file>
     </qresource>
 </RCC>

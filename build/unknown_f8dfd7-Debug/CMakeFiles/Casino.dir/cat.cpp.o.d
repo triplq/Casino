@@ -1,7 +1,7 @@
-CMakeFiles/Casino.dir/mainwindow.cpp.o: \
-  /Users/alexey/Casino/mainwindow.cpp /Users/alexey/Casino/mainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+CMakeFiles/Casino.dir/cat.cpp.o: /Users/alexey/Casino/cat.cpp \
+  /Users/alexey/Casino/cat.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtCore/qglobal.h \
@@ -576,7 +576,6 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
-  /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtCore/qobjectdefs.h \
   /opt/homebrew/include/QtCore/qnamespace.h \
@@ -1121,111 +1120,22 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
-  /opt/homebrew/include/QtWidgets/qtabwidget.h \
-  /opt/homebrew/lib/QtStateMachine.framework/Headers/QStateMachine \
-  /opt/homebrew/lib/QtStateMachine.framework/Headers/qstatemachine.h \
-  /opt/homebrew/include/QtCore/qcoreevent.h \
-  /opt/homebrew/include/QtStateMachine/qstate.h \
-  /opt/homebrew/include/QtCore/qmetaobject.h \
-  /opt/homebrew/include/QtStateMachine/qabstractstate.h \
-  /opt/homebrew/include/QtStateMachine/qstatemachineglobal.h \
-  /opt/homebrew/include/QtStateMachine/qtstatemachine-config.h \
-  /opt/homebrew/include/QtStateMachine/qtstatemachineexports.h \
-  /opt/homebrew/lib/QtStateMachine.framework/Headers/QState \
-  /opt/homebrew/lib/QtStateMachine.framework/Headers/qstate.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
-  /opt/homebrew/include/QtWidgets/qdialog.h \
-  /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/include/QtWidgets/qframe.h \
+  /opt/homebrew/include/QtWidgets/qwidget.h \
+  /opt/homebrew/include/QtGui/qpicture.h \
+  /opt/homebrew/include/QtCore/qiodevice.h \
+  /opt/homebrew/include/QtGui/qtextdocument.h \
+  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
   /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QVector \
-  /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
-  /Users/alexey/Casino/reel.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
   /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
   /opt/homebrew/include/QtCore/qvariantanimation.h \
   /opt/homebrew/include/QtCore/qabstractanimation.h \
   /opt/homebrew/include/QtCore/qeasingcurve.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
-  /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
-  /opt/homebrew/include/QtCore/qanimationgroup.h \
   /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
   /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
   /opt/homebrew/include/QtGui/qtextoption.h \
-  /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator \
-  /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/random \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/generate_canonical.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/default_random_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/normal_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/knuth_b.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/random_device.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/ranlux.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/seed_seq.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/alexey/Casino/cat.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtCore/qurl.h \
-  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/include/ui_mainwindow.h \
-  /opt/homebrew/include/QtCore/QVariant \
-  /opt/homebrew/include/QtWidgets/QApplication \
-  /opt/homebrew/include/QtWidgets/qapplication.h \
-  /opt/homebrew/include/QtCore/qcoreapplication.h \
-  /opt/homebrew/include/QtCore/qdeadlinetimer.h \
-  /opt/homebrew/include/QtCore/qelapsedtimer.h \
-  /opt/homebrew/include/QtCore/qeventloop.h \
-  /opt/homebrew/include/QtCore/qnativeinterface.h \
-  /opt/homebrew/include/QtCore/qcoreapplication_platform.h \
-  /opt/homebrew/include/QtGui/qguiapplication.h \
-  /opt/homebrew/include/QtGui/qinputmethod.h \
-  /opt/homebrew/include/QtCore/qlocale.h \
-  /opt/homebrew/include/QtGui/qguiapplication_platform.h \
-  /opt/homebrew/include/QtWidgets/QMainWindow \
-  /opt/homebrew/include/QtWidgets/QMenuBar \
-  /opt/homebrew/include/QtWidgets/qmenubar.h \
-  /opt/homebrew/include/QtWidgets/qmenu.h \
-  /opt/homebrew/include/QtWidgets/QPushButton \
-  /opt/homebrew/include/QtWidgets/qpushbutton.h \
-  /opt/homebrew/include/QtWidgets/qabstractbutton.h \
-  /opt/homebrew/include/QtWidgets/QStatusBar \
-  /opt/homebrew/include/QtWidgets/qstatusbar.h \
-  /opt/homebrew/include/QtWidgets/QVBoxLayout \
-  /opt/homebrew/include/QtWidgets/qboxlayout.h \
-  /opt/homebrew/include/QtWidgets/qlayout.h \
-  /opt/homebrew/include/QtWidgets/qlayoutitem.h \
-  /opt/homebrew/include/QtWidgets/qgridlayout.h \
-  /opt/homebrew/include/QtWidgets/QWidget
+  /opt/homebrew/include/QtGui/qpen.h

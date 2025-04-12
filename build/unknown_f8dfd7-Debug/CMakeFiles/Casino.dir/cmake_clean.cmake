@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Casino_autogen"
   "CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/Casino.dir/cat.cpp.o"
+  "CMakeFiles/Casino.dir/cat.cpp.o.d"
   "CMakeFiles/Casino.dir/main.cpp.o"
   "CMakeFiles/Casino.dir/main.cpp.o.d"
   "CMakeFiles/Casino.dir/mainwindow.cpp.o"
