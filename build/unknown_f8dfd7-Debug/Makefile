@@ -224,30 +224,6 @@ Casino_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.s
 .PHONY : Casino_autogen/mocs_compilation.cpp.s
 
-cat.o: cat.cpp.o
-.PHONY : cat.o
-
-# target to build an object file
-cat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/cat.cpp.o
-.PHONY : cat.cpp.o
-
-cat.i: cat.cpp.i
-.PHONY : cat.i
-
-# target to preprocess a source file
-cat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/cat.cpp.i
-.PHONY : cat.cpp.i
-
-cat.s: cat.cpp.s
-.PHONY : cat.s
-
-# target to generate assembly for a file
-cat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/cat.cpp.s
-.PHONY : cat.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -362,9 +338,6 @@ help:
 	@echo "... Casino_autogen/mocs_compilation.o"
 	@echo "... Casino_autogen/mocs_compilation.i"
 	@echo "... Casino_autogen/mocs_compilation.s"
-	@echo "... cat.o"
-	@echo "... cat.i"
-	@echo "... cat.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

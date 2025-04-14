@@ -7,10 +7,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    cat = new Cat();
-    cat->setParent(ui->catWidget);
-    //cat->setGeometry(480, 310, 240, 240);
-
     QVector<QPixmap> images;
     reel1 = new Reel(this);
     reel2 = new Reel(this);
@@ -68,8 +64,6 @@ void MainWindow::startStateMachine()
         reel1->stop_spinning();
         reel2->stop_spinning();
         reel3->stop_spinning();
-
-        cat->set_start_pos(480, 310);
     });
 
     connect(rolling, &QState::entered, [=]()
@@ -78,15 +72,11 @@ void MainWindow::startStateMachine()
         reel1->spin(4000);
         reel2->spin(5000);
         reel3->spin(6000);
-
-        cat->start_animation();
     });
 
     connect(showWin, &QState::entered, [=]()
     {
         ui->statusbar->showMessage("WIN");
-
-        cat->win();
 
         QMessageBox* msgBox = new QMessageBox(QMessageBox::Information, tr("Win!"), tr("U have a great WIN"), QMessageBox::Cancel, this);
         msgBox->show();

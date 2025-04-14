@@ -29,7 +29,6 @@ public:
     QPushButton *startButton;
     QPushButton *stopButton;
     QWidget *slotsWidget;
-    QWidget *catWidget;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -63,9 +62,6 @@ public:
         slotsWidget = new QWidget(centralwidget);
         slotsWidget->setObjectName("slotsWidget");
         slotsWidget->setGeometry(QRect(30, 30, 541, 201));
-        catWidget = new QWidget(centralwidget);
-        catWidget->setObjectName("catWidget");
-        catWidget->setGeometry(QRect(420, 310, 240, 240));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");

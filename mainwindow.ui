@@ -74,16 +74,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QWidget" name="catWidget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>310</y>
-      <width>240</width>
-      <height>240</height>
-     </rect>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

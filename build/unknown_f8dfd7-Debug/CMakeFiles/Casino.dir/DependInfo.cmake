@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/mocs_compilation.cpp" "CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o.d"
-  "/Users/alexey/Casino/cat.cpp" "CMakeFiles/Casino.dir/cat.cpp.o" "gcc" "CMakeFiles/Casino.dir/cat.cpp.o.d"
   "/Users/alexey/Casino/main.cpp" "CMakeFiles/Casino.dir/main.cpp.o" "gcc" "CMakeFiles/Casino.dir/main.cpp.o.d"
   "/Users/alexey/Casino/mainwindow.cpp" "CMakeFiles/Casino.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/Casino.dir/mainwindow.cpp.o.d"
   "/Users/alexey/Casino/build/unknown_f8dfd7-Debug/qrc_casino_resources.cpp" "CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o" "gcc" "CMakeFiles/Casino.dir/qrc_casino_resources.cpp.o.d"

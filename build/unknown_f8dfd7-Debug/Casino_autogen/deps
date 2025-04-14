@@ -961,8 +961,6 @@ Casino_autogen/timestamp: \
 	/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles/3.29.4/CMakeSystem.cmake \
 	/Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/moc_predefs.h \
 	/Users/alexey/Casino/casino_resources.qrc \
-	/Users/alexey/Casino/cat.cpp \
-	/Users/alexey/Casino/cat.h \
 	/Users/alexey/Casino/main.cpp \
 	/Users/alexey/Casino/mainwindow.cpp \
 	/Users/alexey/Casino/mainwindow.h \
@@ -1021,7 +1019,6 @@ Casino_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qhash.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -1095,7 +1092,6 @@ Casino_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qurl.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtCore.framework/Versions/A/Headers/qvariantanimation.h \
@@ -1121,14 +1117,12 @@ Casino_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpen.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qregion.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
@@ -1143,14 +1137,11 @@ Casino_autogen/timestamp: \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtStateMachine.framework/Versions/A/Headers/qstatemachineglobal.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtStateMachine.framework/Versions/A/Headers/qtstatemachine-config.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtStateMachine.framework/Versions/A/Headers/qtstatemachineexports.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
 	/opt/homebrew/Cellar/qt/6.8.2/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \

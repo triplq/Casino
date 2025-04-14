@@ -1,9 +1,9 @@
 CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/mocs_compilation.cpp \
-  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/moc_cat.cpp \
-  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/../../../../cat.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/../../../../mainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
   /opt/homebrew/include/QtCore/qglobal.h \
@@ -578,6 +578,7 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtGui/qtguiexports.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
+  /opt/homebrew/include/QtWidgets/qwidget.h \
   /opt/homebrew/include/QtGui/qwindowdefs.h \
   /opt/homebrew/include/QtCore/qobjectdefs.h \
   /opt/homebrew/include/QtCore/qnamespace.h \
@@ -1122,32 +1123,6 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtGui/qcursor.h \
   /opt/homebrew/include/QtGui/qbitmap.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
-  /opt/homebrew/include/QtWidgets/qwidget.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
-  /opt/homebrew/include/QtCore/qurl.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
-  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
-  /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
-  /opt/homebrew/include/QtCore/qvariantanimation.h \
-  /opt/homebrew/include/QtCore/qabstractanimation.h \
-  /opt/homebrew/include/QtCore/qeasingcurve.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
-  /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
-  /opt/homebrew/include/QtGui/qtextoption.h \
-  /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/include/QtGui/qtextcursor.h \
-  /opt/homebrew/include/QtGui/qtextformat.h \
-  /opt/homebrew/include/QtCore/qtmochelpers.h \
-  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/../../../../mainwindow.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/QStateMachine \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/qstatemachine.h \
@@ -1164,12 +1139,25 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPixmap \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QVector \
   /opt/homebrew/lib/QtCore.framework/Headers/qvector.h \
   /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/../../../../reel.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QPropertyAnimation \
+  /opt/homebrew/lib/QtCore.framework/Headers/qpropertyanimation.h \
+  /opt/homebrew/include/QtCore/qvariantanimation.h \
+  /opt/homebrew/include/QtCore/qabstractanimation.h \
+  /opt/homebrew/include/QtCore/qeasingcurve.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QParallelAnimationGroup \
   /opt/homebrew/lib/QtCore.framework/Headers/qparallelanimationgroup.h \
   /opt/homebrew/include/QtCore/qanimationgroup.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpainter.h \
+  /opt/homebrew/include/QtGui/qtextoption.h \
+  /opt/homebrew/include/QtGui/qpen.h \
   /opt/homebrew/lib/QtCore.framework/Headers/QRandomGenerator \
   /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/random \
@@ -1206,4 +1194,5 @@ CMakeFiles/Casino.dir/Casino_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
+  /opt/homebrew/include/QtCore/qtmochelpers.h \
   /Users/alexey/Casino/build/unknown_f8dfd7-Debug/Casino_autogen/EWIEGA46WW/moc_reel.cpp

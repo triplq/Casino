@@ -14,7 +14,6 @@ qt_add_executable(Casino
     mainwindow.h
     mainwindow.ui
     reel.h reel.cpp
-    cat.h cat.cpp
     ${RESOURCE_FILES}
 )
 
