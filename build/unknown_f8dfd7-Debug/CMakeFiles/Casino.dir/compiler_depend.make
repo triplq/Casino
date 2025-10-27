@@ -2204,7 +2204,6 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
-  /Users/alexey/Casino/cat.h \
   /Users/alexey/Casino/mainwindow.h \
   /Users/alexey/Casino/reel.h \
   /opt/homebrew/include/QtCore/q20functional.h \
@@ -2261,7 +2260,6 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
@@ -2334,7 +2332,6 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
-  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvariantanimation.h \
@@ -2359,14 +2356,12 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
   /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
@@ -2380,7 +2375,6 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /opt/homebrew/include/QtStateMachine/qtstatemachineexports.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qsizepolicy.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
@@ -2404,12 +2398,10 @@ CMakeFiles/Casino.dir/main.cpp.o: /Users/alexey/Casino/main.cpp \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/qstate.h \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/qstatemachine.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
@@ -3420,7 +3412,6 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
   Casino_autogen/include/ui_mainwindow.h \
-  /Users/alexey/Casino/cat.h \
   /Users/alexey/Casino/mainwindow.h \
   /Users/alexey/Casino/reel.h \
   /opt/homebrew/include/QtCore/QVariant \
@@ -3478,7 +3469,6 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtCore/qglobalstatic.h \
   /opt/homebrew/include/QtCore/qhash.h \
   /opt/homebrew/include/QtCore/qhashfunctions.h \
-  /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
@@ -3551,7 +3541,6 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtCore/qtversionchecks.h \
   /opt/homebrew/include/QtCore/qtypeinfo.h \
   /opt/homebrew/include/QtCore/qtypes.h \
-  /opt/homebrew/include/QtCore/qurl.h \
   /opt/homebrew/include/QtCore/qutf8stringview.h \
   /opt/homebrew/include/QtCore/qvariant.h \
   /opt/homebrew/include/QtCore/qvariantanimation.h \
@@ -3576,14 +3565,12 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtGui/qpaintdevice.h \
   /opt/homebrew/include/QtGui/qpalette.h \
   /opt/homebrew/include/QtGui/qpen.h \
-  /opt/homebrew/include/QtGui/qpicture.h \
   /opt/homebrew/include/QtGui/qpixelformat.h \
   /opt/homebrew/include/QtGui/qpixmap.h \
   /opt/homebrew/include/QtGui/qpolygon.h \
   /opt/homebrew/include/QtGui/qregion.h \
   /opt/homebrew/include/QtGui/qrgb.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
-  /opt/homebrew/include/QtGui/qtextdocument.h \
   /opt/homebrew/include/QtGui/qtextoption.h \
   /opt/homebrew/include/QtGui/qtgui-config.h \
   /opt/homebrew/include/QtGui/qtguiexports.h \
@@ -3607,7 +3594,6 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/include/QtWidgets/qboxlayout.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
-  /opt/homebrew/include/QtWidgets/qframe.h \
   /opt/homebrew/include/QtWidgets/qgridlayout.h \
   /opt/homebrew/include/QtWidgets/qlayout.h \
   /opt/homebrew/include/QtWidgets/qlayoutitem.h \
@@ -3637,11 +3623,9 @@ CMakeFiles/Casino.dir/mainwindow.cpp.o: /Users/alexey/Casino/mainwindow.cpp \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/QStateMachine \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/qstate.h \
   /opt/homebrew/lib/QtStateMachine.framework/Headers/qstatemachine.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h
@@ -4842,17 +4826,11 @@ qrc_casino_resources.cpp:
 
 Casino_autogen/include/ui_mainwindow.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication:
 
-/opt/homebrew/include/QtCore/qurl.h:
-
 /opt/homebrew/include/QtCore/qnativeinterface.h:
-
-/opt/homebrew/include/QtCore/qiodevice.h:
 
 /opt/homebrew/include/QtCore/qelapsedtimer.h:
 
@@ -4877,8 +4855,6 @@ Casino_autogen/include/ui_mainwindow.h:
 /opt/homebrew/lib/QtGui.framework/Headers/QPixmap:
 
 /opt/homebrew/lib/QtGui.framework/Headers/QPainter:
-
-/opt/homebrew/include/QtWidgets/qframe.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qrandom.h:
 
@@ -5350,8 +5326,6 @@ Casino_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/clocale:
 
-/opt/homebrew/include/QtGui/qtextdocument.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/chrono:
@@ -5747,8 +5721,6 @@ Casino_autogen/EWIEGA46WW/moc_reel.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/ranges_any_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__numeric/saturation_arithmetic.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/QLabel:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/alloca.h:
 
@@ -6257,8 +6229,6 @@ Casino_autogen/EWIEGA46WW/moc_reel.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__memory/allocator.h:
-
-/Users/alexey/Casino/cat.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/xlocale/_time.h:
 
@@ -6963,8 +6933,6 @@ Casino_autogen/EWIEGA46WW/moc_reel.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_union.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h:
-
-/opt/homebrew/include/QtGui/qpicture.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__utility/no_destroy.h:
 

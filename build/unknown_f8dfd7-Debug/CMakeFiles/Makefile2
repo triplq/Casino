@@ -80,8 +80,8 @@ clean: CMakeFiles/Casino_autogen.dir/clean
 # Target rules for target CMakeFiles/Casino.dir
 
 # All Build rule for target.
-CMakeFiles/Casino.dir/all: CMakeFiles/Casino_autogen_timestamp_deps.dir/all
 CMakeFiles/Casino.dir/all: CMakeFiles/Casino_autogen.dir/all
+CMakeFiles/Casino.dir/all: CMakeFiles/Casino_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Casino.dir/build.make CMakeFiles/Casino.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/alexey/Casino/build/unknown_f8dfd7-Debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Casino"

@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/Users/alexey/Casino/build/unknown_f8dfd7-Debug/.qt/deploy_Casino_c29c47ee55.cmake")
+  include("/Users/alexey/Casino/build/unknown_f8dfd7-Debug/.qt/deploy_Casino_77ac453015.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

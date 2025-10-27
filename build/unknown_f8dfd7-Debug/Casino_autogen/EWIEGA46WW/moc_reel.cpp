@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'reel.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.2)
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.9.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -17,8 +17,8 @@
 #include <QtCore/qxptype_traits.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'reel.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.2. It"
+#elif Q_MOC_OUTPUT_REVISION != 69
+#error "This file was generated using the moc from 6.9.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -34,67 +34,42 @@ namespace {
 struct qt_meta_tag_ZN4ReelE_t {};
 } // unnamed namespace
 
+template <> constexpr inline auto Reel::qt_create_metaobjectdata<qt_meta_tag_ZN4ReelE_t>()
+{
+    namespace QMC = QtMocConstants;
+    QtMocHelpers::StringRefStorage qt_stringData {
+        "Reel",
+        "spinningFinished",
+        "",
+        "spinningStopped",
+        "scrollOffsetChanged",
+        "scrollOffset"
+    };
 
-#ifdef QT_MOC_HAS_STRINGDATA
-static constexpr auto qt_meta_stringdata_ZN4ReelE = QtMocHelpers::stringData(
-    "Reel",
-    "spinningFinished",
-    "",
-    "spinningStopped",
-    "scrollOffsetChanged",
-    "scrollOffset"
-);
-#else  // !QT_MOC_HAS_STRINGDATA
-#error "qtmochelpers.h not found or too old."
-#endif // !QT_MOC_HAS_STRINGDATA
-
-Q_CONSTINIT static const uint qt_meta_data_ZN4ReelE[] = {
-
- // content:
-      12,       // revision
-       0,       // classname
-       0,    0, // classinfo
-       3,   14, // methods
-       1,   35, // properties
-       0,    0, // enums/sets
-       0,    0, // constructors
-       0,       // flags
-       3,       // signalCount
-
- // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   32,    2, 0x06,    2 /* Public */,
-       3,    0,   33,    2, 0x06,    3 /* Public */,
-       4,    0,   34,    2, 0x06,    4 /* Public */,
-
- // signals: parameters
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-
- // properties: name, type, flags, notifyId, revision
-       5, QMetaType::QReal, 0x00015103, uint(2), 0,
-
-       0        // eod
-};
-
+    QtMocHelpers::UintData qt_methods {
+        // Signal 'spinningFinished'
+        QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'spinningStopped'
+        QtMocHelpers::SignalData<void()>(3, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'scrollOffsetChanged'
+        QtMocHelpers::SignalData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
+    };
+    QtMocHelpers::UintData qt_properties {
+        // property 'scrollOffset'
+        QtMocHelpers::PropertyData<qreal>(5, QMetaType::QReal, QMC::DefaultPropertyFlags | QMC::Writable | QMC::StdCppSet, 2),
+    };
+    QtMocHelpers::UintData qt_enums {
+    };
+    return QtMocHelpers::metaObjectData<Reel, qt_meta_tag_ZN4ReelE_t>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums);
+}
 Q_CONSTINIT const QMetaObject Reel::staticMetaObject = { {
     QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
-    qt_meta_stringdata_ZN4ReelE.offsetsAndSizes,
-    qt_meta_data_ZN4ReelE,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4ReelE_t>.stringdata,
+    qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4ReelE_t>.data,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_tag_ZN4ReelE_t,
-        // property 'scrollOffset'
-        QtPrivate::TypeAndForceComplete<qreal, std::true_type>,
-        // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<Reel, std::true_type>,
-        // method 'spinningFinished'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'spinningStopped'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'scrollOffsetChanged'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
-    >,
+    qt_staticMetaObjectRelocatingContent<qt_meta_tag_ZN4ReelE_t>.metaTypes,
     nullptr
 } };
 
@@ -110,40 +85,24 @@ void Reel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
-        int *result = reinterpret_cast<int *>(_a[0]);
-        {
-            using _q_method_type = void (Reel::*)();
-            if (_q_method_type _q_method = &Reel::spinningFinished; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 0;
-                return;
-            }
-        }
-        {
-            using _q_method_type = void (Reel::*)();
-            if (_q_method_type _q_method = &Reel::spinningStopped; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 1;
-                return;
-            }
-        }
-        {
-            using _q_method_type = void (Reel::*)();
-            if (_q_method_type _q_method = &Reel::scrollOffsetChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
-                *result = 2;
-                return;
-            }
-        }
+        if (QtMocHelpers::indexOfMethod<void (Reel::*)()>(_a, &Reel::spinningFinished, 0))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (Reel::*)()>(_a, &Reel::spinningStopped, 1))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (Reel::*)()>(_a, &Reel::scrollOffsetChanged, 2))
+            return;
     }
     if (_c == QMetaObject::ReadProperty) {
         void *_v = _a[0];
         switch (_id) {
-        case 0: *reinterpret_cast< qreal*>(_v) = _t->getScrollOffset(); break;
+        case 0: *reinterpret_cast<qreal*>(_v) = _t->getScrollOffset(); break;
         default: break;
         }
     }
     if (_c == QMetaObject::WriteProperty) {
         void *_v = _a[0];
         switch (_id) {
-        case 0: _t->setScrollOffset(*reinterpret_cast< qreal*>(_v)); break;
+        case 0: _t->setScrollOffset(*reinterpret_cast<qreal*>(_v)); break;
         default: break;
         }
     }
@@ -157,7 +116,7 @@ const QMetaObject *Reel::metaObject() const
 void *Reel::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ZN4ReelE.stringdata0))
+    if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN4ReelE_t>.strings))
         return static_cast<void*>(this);
     return QWidget::qt_metacast(_clname);
 }
