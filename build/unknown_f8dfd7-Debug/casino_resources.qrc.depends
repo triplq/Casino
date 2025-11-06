@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>icons/apple.png</file>
-        <file>icons/banana.png</file>
-        <file>icons/pineapple.png</file>
-        <file>icons/watermelon.png</file>
-    </qresource>
-</RCC>
