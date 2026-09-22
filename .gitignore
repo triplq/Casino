@@ -7,3 +7,6 @@ CMakeLists.txt.user*
 # Каталоги сборки
 build/
 build-*/
+
+# Исходная запись демо (в репозитории лежит docs/demo.gif)
+*.mov
